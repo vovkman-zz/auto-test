@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [[ -z "$1" ]]; then
+  echo "Error: Please provide a file name to test"
+  exit 1
+fi
+
+export FILE_TO_TEST=$PWD/$1
+export FILE_NAME=$1
+export TAB="  "
+
+ts-node $HOME/Documents/personal/auto-test/start.js

@@ -1,0 +1,19 @@
+{
+  "name": "auto-jest",
+  "version": "1.0.0",
+  "description": "Automatically generate jest testing files",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --config jest-config.json"
+  },
+  "author": "Liam Vovk",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "ramda": "^0.26.1",
+    "typescript": "^3.5.1"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
